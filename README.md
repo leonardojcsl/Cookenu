@@ -1,70 +1,48 @@
-# Getting Started with Create React App
+# `Projeto`
+Projeto Cookenu
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# `Link`
+https://cuddly-chairs.surge.sh/
 
-## Available Scripts
 
-In the project directory, you can run:
+# `Descrição`
+O Projeto Cookenu foi desenvolvido como projeto de fixação de um conjunto de tecnlogias necessários para uma aplicação de receitas culinárias. O projeto consiste em requisições (via axios) para a API Cookenu, que é uma API desevolvida pela equipe da Labenu com informações relacionadas necessárias para criação de usuários e receitas numa aplicação de culinária semelhante a sites como TudoGostoso.
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+*a API pode ser encontrada [aqui](https://documenter.getpostman.com/view/9133542/U16dQniU)
+</br>
+O repositório do projeto pode ser encontrado [aqui](https://github.com/leonardojcsl/Cookenu)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# `Modo de usar`
+Ao iniciar a aplicação o usuário se deparará com uma tela para efetuar Login, caso tenha, ou se inscrever na plataforma, criando um usuário com nome, email, senha e dados de endereço.
+</br>
+Após efetuar login, o usuário será redirecionado para um feed com receitas já cadastradas por outros usuários.
+</br>
+Entrando em uma receita, serão listados todos os ingredientes e modo de preparo da receita. Até o presente momento, a funcionalidade de adicionar receitas está inoperante, entretanto, em breve estará em pleno funcionamento
+</br>
 
-### `npm test`
+# `Instalando e rodando o projeto`
+Fazer o clone do projeto:
+- git clone link-do-repositório
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Instalar as dependências:
+- npm install
 
-### `npm run build`
+Rodar o projeto:
+- npm run start
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# `Tecnologias utilizadas`
+<div>
+<img src="https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white">
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
+<img src="https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white">
+<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB">
+<img src="https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white">
+<img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white">
+<img src="https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white">
+<img src="https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white">
+</div>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# `Autor`
+Leonardo José Silva Lopes de Souza; 
